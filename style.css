@@ -1,0 +1,120 @@
+body{
+    background-color: #343a40;
+}
+button{
+    background-color: #343a40;
+    border: none;
+    color: #f4f4f4;
+    padding: 14px 22px;
+    border-radius: 9px;
+}
+.header{
+    background-color: #222427;
+    padding: 40px 48px;
+    color: #f4f4f4;
+    display: flex;
+    font-weight: 700;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h3{
+    font-size: 40px;
+}
+.header .searchBar{
+    padding: 2px;
+    position: relative;
+}
+.header #search{
+    background-color: #dee2e6;
+    border-radius: 20px;
+    font-size: 16px;
+    line-height: 40px;
+    padding-left: 17px;
+    max-width: 200px;
+}
+.header .searchIcon{
+    position: absolute;
+    color: #343a40;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.main{
+    background: #222427;
+    padding: 24px 44px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #f4f4f4;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.card-img-top{
+    height: 368px;
+    width: 100%;
+}
+.searchText,.movieText{
+    font-size: 32px;
+    font-weight: 700;
+    color: #f4f4f4;
+}
+.content{
+    margin-top: 40px;
+    background: #212529;
+    color: #f4f4f4;
+    box-shadow: 10px 12px 10px #212529;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.smallInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+    margin: 10px 0px;
+}
+.imgDetail{
+    max-width: 370px;
+    max-height: 400px;
+}
+.movieName{
+    font-size: 28px;
+    color: #f4f4f4;
+}
+.movieTitle {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.plot {
+    margin: 0px 0px 20px;
+    padding: 0 57px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.rating {
+    padding: 5px 54px;
+    position: relative;
+    font-size: 18px;
+}
+span.number {
+    position: absolute;
+    top: 0;
+    left: 169px;
+    background: navy;
+    color: #f4f4f4;
+    padding: 8px 10px;
+    border-radius: 50%;
+    font-size: 15px;
+}
+input:focus{
+    box-shadow: none;
+    outline: none;
+}
